@@ -7,11 +7,11 @@
 <title>محلّل نتائج نافس — مجودة</title>
 <link rel="icon" type="image/png" href="/favicon.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Alexandria:wght@700;800&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Baloo+Bhaijaan+2:wght@600;700;800&display=swap">
 <style>
 :root{--ink:#0b3d40;--muted:#5b7476;--line:#d9e6e6;--paper:#f5f9f8;--card:#fff;--teal:#0a6d73;--teal-2:#16787c;--teal-soft:#e3f1f0;--must:#c9891f;--must-soft:#fbf1df;
  --l4:#1f7a43;--l3:#4f9d5d;--l2:#d39a2b;--l1:#c4513f;--l4s:#e4f4ea;--l3s:#edf6ee;--l2s:#fbf1df;--l1s:#fbe9e7;
- --f-d:"Alexandria","IBM Plex Sans Arabic",Tahoma,sans-serif;--f-b:"IBM Plex Sans Arabic","Segoe UI",Tahoma,"Geeza Pro",sans-serif;--r:14px}
+ --f-d:"Baloo Bhaijaan 2","IBM Plex Sans Arabic",Tahoma,sans-serif;--f-b:"IBM Plex Sans Arabic","Segoe UI",Tahoma,"Geeza Pro",sans-serif;--r:14px}
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){--ink:#e4efee;--muted:#9db3b2;--line:#24393a;--paper:#0d1717;--card:#132222;--teal:#4fb7b5;--teal-2:#6cc9c6;--teal-soft:#16302f;--must:#e6ac4a;--must-soft:#2c2414;--l4s:#132b1e;--l3s:#16281b;--l2s:#2c2414;--l1s:#341b19;color-scheme:dark}}
 :root[data-theme=dark]{--ink:#e4efee;--muted:#9db3b2;--line:#24393a;--paper:#0d1717;--card:#132222;--teal:#4fb7b5;--teal-2:#6cc9c6;--teal-soft:#16302f;--must:#e6ac4a;--must-soft:#2c2414;--l4s:#132b1e;--l3s:#16281b;--l2s:#2c2414;--l1s:#341b19;color-scheme:dark}
 *{box-sizing:border-box}
@@ -83,6 +83,11 @@ table.t input.name{width:100%;text-align:start}
  .kpis{grid-template-columns:repeat(4,1fr)}.kpi{border:1px solid #c9d9d9;padding:6px 8px}.kpi b{font-size:18px}
  .grp{border:1px solid #c9d9d9;break-inside:avoid;margin-top:6px}
 }
+
+/* سهم القوائم المنسدلة — موحّد في منتجات مجودة */
+select{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%236b8486' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")!important;background-repeat:no-repeat!important;background-size:11px 8px!important;padding-inline-end:30px!important;text-overflow:ellipsis;cursor:pointer}
+select:dir(rtl){background-position:left 11px center!important}select:dir(ltr){background-position:right 11px center!important}
+select::-ms-expand{display:none}
 </style>
 </head>
 <body>
